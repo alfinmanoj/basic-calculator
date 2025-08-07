@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="calculator">
-        <input type="text" id="display" disabled>
+        <input type="text" class="display" id="display" >
         <div class="buttons">
-            <button>C</button>
+            <button class="clear">C</button>
             <button>/</button>
             <button>*</button>
             <button>DEL</button>
@@ -27,11 +28,13 @@
             <button>1</button>
             <button>3</button>
             <button>3</button>
-            <button>=</button>
+            <button class="equal" rowspan="2">=</button>
 
             <button>0</button>
             <button>.</button>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
